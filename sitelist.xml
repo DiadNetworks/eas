@@ -15,4 +15,8 @@
 <compat-mode>IE11</compat-mode>
 <open-in merge-type="no-merge">IE11</open-in>
 </site>
+<site url="http://192.168.1.207/eas/index.aspx">
+<compat-mode>IE11</compat-mode>
+<open-in merge-type="no-merge">IE11</open-in>
+</site>
 </site-list>
