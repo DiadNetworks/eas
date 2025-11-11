@@ -24,12 +24,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\IEToEdge]
 "RedirectionMode"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
-"InternetExplorerIntegrationLevel"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main\EnterpriseMode]
 "SiteList"="https://raw.githubusercontent.com/DiadNetworks/eas/refs/heads/main/sitelist.xml"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\EnterpriseMode]
-"SiteList"="https://raw.githubusercontent.com/DiadNetworks/eas/refs/heads/main/sitelist.xml"
-"AllowSaveTargetAsInIEMode"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"InternetExplorerIntegrationLevel"=dword:00000001
+"InternetExplorerIntegrationSiteList"="https://raw.githubusercontent.com/DiadNetworks/eas/refs/heads/main/sitelist.xml"
